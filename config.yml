@@ -1,0 +1,281 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+force_tags: false
+check_updates: true
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+load_tag_on_join: true
+gui:
+  name: '&6Available tags&f: &6%deluxetags_amount%'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Tag&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - '%deluxetags_description%'
+  divider_item:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&eCurrent tag&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - Click to remove your current tag
+  no_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - '&7Click a tag above to select one!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Exit the tags menu'
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
+deluxetags:
+  Sigma:
+    order: 1
+    tag: '#00ffe0ꜱɪɢᴍᴀ'
+    description: '&bɴᴀ̃ᴏ sᴇ ᴄᴏᴍᴘᴀʀᴇ ᴀᴏs ᴅᴇᴍᴀɪs. ᴠᴏᴄᴇ̂ ᴇ́ ᴏ ᴀʟғᴀ. 💼'
+    permission: deluxetags.tag.sigma
+  
+  MainCharacter:
+    order: 2
+    tag: '#ff8bffᴍᴀɪɴ ᴄʜᴀʀᴀᴄᴛᴇʀ'
+    description: '&dᴛᴜᴅᴏ ɢɪʀᴀ ᴀᴏ sᴇᴜ ʀᴇᴅᴏʀ 💅 #maincharacterenergy'
+    permission: deluxetags.tag.maincharacter
+  
+  UwU:
+    order: 3
+    tag: '#ffb6e6ᴜᴡᴜ'
+    description: '&dᴛᴀɢ ғᴏғɪɴʜᴀ ᴘʀᴀ ǫᴜᴇᴍ ᴅɪᴢ "ɴʏᴀ~" 😳'
+    permission: deluxetags.tag.uwu
+  
+  Gojo:
+    order: 4
+    tag: '#8fffffɢᴏᴊᴏ'
+    description: '&bᴇɴxᴇʀɢᴀ ᴄᴏᴍ ᴏs ᴏʟʜᴏs ᴅᴏ ɪɴғɪɴɪᴛᴏ 👁️'
+    permission: deluxetags.tag.gojo
+  
+  Cringe:
+    order: 5
+    tag: '#ff5757ᴄʀɪɴɢᴇ'
+    description: '&cᴇᴜ ғᴀᴢ ᴏ sᴇᴜ ᴍᴇʟʜᴏʀ — ᴇ ᴇɴᴛᴇɴᴅᴇ ᴄᴏᴍᴏ ᴀ ɪʀᴏɴɪᴀ 😭'
+    permission: deluxetags.tag.cringe
+  
+  Based:
+    order: 6
+    tag: '#9bff7fʙᴀsᴇᴅ'
+    description: '&aɴᴀ̃ᴏ sᴇ ɪᴍᴘᴏʀᴛᴀ ᴄᴏᴍ ᴏᴘɪɴɪᴏ̃ᴇs 💪'
+    permission: deluxetags.tag.based
+  
+  NoSleep:
+    order: 7
+    tag: '#c7a6ffɴᴏsʟᴇᴇᴘ'
+    description: '&dᴏɴᴅᴇ ᴀ ᴄᴀғᴇɪɴᴀ ɴᴜɴᴄᴀ ᴀᴄᴀʙᴀ ☕'
+    permission: deluxetags.tag.nosleep
+  
+  AFKQueen:
+    order: 8
+    tag: '#ff91b6ᴀꜰᴋ ǫᴜᴇᴇɴ'
+    description: '&dꜱᴇᴍᴘʀᴇ ᴏɴʟɪɴᴇ, ɴᴜɴᴄᴀ ᴘʀᴇsᴇɴᴛᴇ 👑'
+    permission: deluxetags.tag.afkqueen
+  
+  NPC:
+    order: 9
+    tag: '#bfbfbfɴᴘᴄ'
+    description: '&7ᴄᴜɪᴅᴀᴅᴏ, ᴘᴏᴅᴇ sᴇʀ ᴜᴍ ʙᴏᴛ 🤖'
+    permission: deluxetags.tag.npc
+  
+  Glitched:
+    order: 10
+    tag: '#9d00ffɢʟɪᴛᴄʜᴇᴅ'
+    description: '&5ᴠɪᴠᴇ ɴᴏ ᴄᴏ́ᴅɪɢᴏ, ɴᴀ̃ᴏ ɴᴀ ʀᴇᴀʟɪᴅᴀᴅᴇ 💻'
+    permission: deluxetags.tag.glitched
+  
+  CatGirl:
+    order: 11
+    tag: '#ffb2d9ᴄᴀᴛɢɪʀʟ'
+    description: '&dɴʏᴀ~ 😽'
+    permission: deluxetags.tag.catgirl
+  
+  Skibidi:
+    order: 12
+    tag: '#ff6f00ꜱᴋɪʙɪᴅɪ'
+    description: '&6ʏᴇᴀʜ ʏᴇᴀʜ sᴋɪʙɪᴅɪ ᴛᴏɪʟᴇᴛ 🧻'
+    permission: deluxetags.tag.skibidi
+  
+  RizzGod:
+    order: 13
+    tag: '#ff4fdcʀɪᴢᴢ ɢᴏᴅ'
+    description: '&dᴘʀᴇɴᴅᴇ ɴᴀ ᴄᴏɴᴠᴇʀsᴀ 😎💬'
+    permission: deluxetags.tag.rizzgod
+  
+  Emo:
+    order: 14
+    tag: '#4b4b4bᴇᴍᴏ'
+    description: '&8ᴇsᴄᴜʀɪᴅᴀ̃ᴏ ᴇ́ ᴍᴇᴜ ʟᴀᴅᴏ ᴄᴀʀɪɴʜᴏsᴏ 🖤'
+    permission: deluxetags.tag.emo
+  
+  Goofy:
+    order: 15
+    tag: '#ffdb7fɢᴏᴏғʏ'
+    description: '&eᴛᴏᴅᴏ ᴍᴜɴᴅᴏ ᴛᴇᴍ ᴜᴍ ʟᴀᴅᴏ ᴛʀᴀᴘᴀʟʜᴀ̃ᴏ 🤡'
+    permission: deluxetags.tag.goofy
+  
+  Aesthetic:
+    order: 16
+    tag: '#ffe1f0ᴀᴇsᴛʜᴇᴛɪᴄ'
+    description: '&dᴠɪʙᴇ ᴇʟᴇɢᴀɴᴛᴇ, ᴘᴀʟᴇᴛᴀ sᴜᴀᴠᴇ 🌸'
+    permission: deluxetags.tag.aesthetic
+  
+  Cozy:
+    order: 17
+    tag: '#ffd6a5ᴄᴏᴢʏ'
+    description: '&6ᴘᴀɴᴛᴜғᴀs, ᴄʜᴀ́ ᴇ ʙʟᴏᴄᴏs ☕'
+    permission: deluxetags.tag.cozy
+  
+  Lunar:
+    order: 18
+    tag: '#b8a6ffʟᴜɴᴀʀ'
+    description: '&dʙʀɪʟʜᴏ ᴅᴇ ᴇꜱᴛʀᴇʟᴀꜱ ɴᴀ ᴇꜱᴄᴜʀɪᴅᴀ̃ᴏ 🌙'
+    permission: deluxetags.tag.lunar
+  
+  FemBoy:
+    order: 19
+    tag: '#ff77c9ꜰᴇᴍʙᴏʏ'
+    description: '&dᴀᴘᴇɴᴀꜱ ᴜᴍ ꜰᴇᴍʙᴏʏ ᴄʜᴀʀᴍᴏꜱᴏ 💅'
+    permission: deluxetags.tag.femboy
+  
+  Raposa:
+    order: 20
+    tag: '#ff9b3fʀᴀᴘᴏꜱᴀ'
+    description: '&6ᴀꜱ ᴛʀᴀᴄᴀꜱ ᴅᴇ ᴜᴍᴀ ʀᴀᴘᴏꜱᴀ ᴀꜱᴛᴜᴛᴀ 🦊'
+    permission: deluxetags.tag.raposa
+  
+  soSapo:
+    order: 21
+    tag: '#7fff72ꜱᴏꜱᴀᴘᴏ'
+    description: '&aᴘᴜʟᴏ ᴘʀᴀ ᴠɪᴅᴀ ᴄᴏᴍ ᴄʜᴀʀᴍᴇ 🐸'
+    permission: deluxetags.tag.sosapo
+  
+  Miau:
+    order: 22
+    tag: '#ffb6c1ᴍɪᴀᴜ'
+    description: '&dᴀᴘᴇɴᴀꜱ ᴜᴍ ɢᴀᴛɪɴʜᴏ ᴘʀᴏʜɪʙɪᴅᴏ 😽'
+    permission: deluxetags.tag.miau
+  
+  Lobo:
+    order: 23
+    tag: '#9ea7ffʟᴏʙᴏ'
+    description: '&9ᴄᴏʀʀᴇɴᴅᴏ ᴄᴏᴍ ᴀ ʟᴜᴀ 🐺'
+    permission: deluxetags.tag.lobo
+  
+  Sereia:
+    order: 24
+    tag: '#63d3ffꜱᴇʀᴇɪᴀ'
+    description: '&bᴄᴀɴᴛᴏ ᴅᴇ ᴍᴀʀ ᴇ ᴍɪꜱᴛᴇ́ʀɪᴏ 🌊'
+    permission: deluxetags.tag.sereia
+  
+  Fada:
+    order: 25
+    tag: '#e6a2ffꜰᴀᴅᴀ'
+    description: '&dᴘᴏᴇɪʀᴀ ᴅᴇ ᴍᴀɢɪᴀ ᴇ ᴄʜᴀʀᴍᴇ 🧚'
+    permission: deluxetags.tag.fada
+  
+  Demon:
+    order: 26
+    tag: '#a00000ᴅᴇᴍᴏɴ'
+    description: '&4ᴏ ꜱᴀʙᴏʀ ᴅᴀ ᴛᴇɴᴛᴀᴄ̧ᴀ̃ᴏ 🔥'
+    permission: deluxetags.tag.demon
+  
+  Angel:
+    order: 27
+    tag: '#f5f5f5ᴀɴɢᴇʟ'
+    description: '&fʟᴜᴢ ᴇ ᴄᴀʟᴍᴀ ᴇᴍ ᴄᴀᴅᴀ ᴘᴀꜱꜱᴏ ☁️'
+    permission: deluxetags.tag.angel
+  
+  GatoPreto:
+    order: 28
+    tag: '#2b2b2bɢᴀᴛᴏᴘʀᴇᴛᴏ'
+    description: '&8ꜱɪʟᴇ̂ɴᴄɪᴏ ᴇ ᴍʏꜱᴛᴇ́ʀɪᴏ 🐈‍⬛'
+    permission: deluxetags.tag.gatopreto
+  
+  Pixelado:
+    order: 29
+    tag: '#00e1ffᴘɪxᴇʟᴀᴅᴏ'
+    description: '&bᴇᴜ ᴠᴇᴊᴏ ᴏ ᴍᴜɴᴅᴏ ᴇᴍ ʙʟᴏᴄᴏꜱ 🧱'
+    permission: deluxetags.tag.pixelado
+  
+  Cyber:
+    order: 30
+    tag: '#00ffeeᴄʏʙᴇʀ'
+    description: '&bᴅɪɢɪᴛᴀʟ ᴇ ɪɴᴅᴏᴍᴀ́ᴠᴇʟ ⚡'
+    permission: deluxetags.tag.cyber
+  
+  Neko:
+    order: 31
+    tag: '#ffb7efɴᴇᴋᴏ'
+    description: '&dɴʏᴀ~ ᴄᴜɪᴅᴀᴅᴏ ᴄᴏᴍ ᴀꜱ ᴘᴀᴛɪɴʜᴀꜱ 🐱'
+    permission: deluxetags.tag.neko
+  
+  Veneno:
+    order: 32
+    tag: '#8aff00ᴠᴇɴᴇɴᴏ'
+    description: '&aʙᴇʟᴇᴢᴀ ᴛᴀ̃ᴏ ᴠᴇɴᴇɴᴏꜱᴀ ☠️'
+    permission: deluxetags.tag.veneno
+  
+  Doce:
+    order: 33
+    tag: '#ff9ad5ᴅᴏᴄᴇ'
+    description: '&dᴏ ᴅᴏᴄᴇ ᴍᴀɪꜱ ᴘᴇʀɪɢᴏꜱᴏ 🍭'
+    permission: deluxetags.tag.doce
+  
+  AnjoCaido:
+    order: 34
+    tag: '#5b5b5bᴀɴᴊᴏᴄᴀɪ́ᴅᴏ'
+    description: '&8ᴇɴᴛʀᴇ ᴀ ʟᴜᴢ ᴇ ᴏ ᴀʙɪꜱᴍᴏ 🖤'
+    permission: deluxetags.tag.anjocaido

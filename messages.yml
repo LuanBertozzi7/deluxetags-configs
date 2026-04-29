@@ -1,0 +1,83 @@
+# DeluxeTags messages.yml
+# Edit the plugin messages to your liking!
+
+cmd:
+  no_permission: '&cᴠᴏᴄê ɴãᴏ ᴛᴇᴍ &7{0} &cᴘᴀʀᴀ ᴇsꜱᴇ ᴀçãᴏ!'
+  target_not_online: '&f{0} &cɴãᴏ ᴇsᴛᴀ́ ᴏɴʟɪɴᴇ!'
+  no_tags_loaded: '&cɴᴇɴʜᴜᴍᴀ ᴛᴀɢ ғᴏɪ ᴄᴀʀʀᴇɢᴀᴅᴀ!'
+  no_tags_available: '&cᴠᴏᴄê ɴãᴏ ᴛᴇᴍ ᴛᴀɢs ᴅɪsᴘᴏɴíᴠᴇɪs!'
+  no_tags_available_target: '&f{0} &cɴãᴏ ᴛᴇᴍ ᴛᴀɢs ᴅɪsᴘᴏɴíᴠᴇɪs!'
+  tag_list_fail: '&cᴠᴏᴄê ɴãᴏ ᴛᴇᴍ ᴛᴀɢs ᴄᴀʀʀᴇɢᴀᴅᴀs.'
+  tag_list_fail_target: '&c{0} ɴãᴏ ᴛᴇᴍ ᴛᴀɢs ᴄᴀʀʀᴇɢᴀᴅᴀs.'
+  tags_list: '&f{0} &aᴛᴀɢs ᴅɪsᴘᴏɴíᴠᴇɪs: &f{1}'
+  tags_list_all: '&f{0} &aᴛᴏᴛᴀʟ ᴅᴇ ᴛᴀɢs ᴄᴀʀʀᴇɢᴀᴅᴀs: &f{1}'
+  tags_list_others: '&f{0} &atᴇᴍ &f{1} &aᴛᴏᴛᴀʟ ᴅᴇ ᴛᴀɢs ᴄᴀʀʀᴇɢᴀᴅᴀs: &f{2}'
+  tag_select_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags select <nome_da_tag>'
+  tag_select_success: '&7sᴜᴀ ᴛᴀɢ ғᴏɪ ᴅᴇғɪɴɪᴅᴀ ᴘᴀʀᴀ: &r{1}'
+  tag_select_invalid_name: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍ ɴᴏᴍᴇ ᴅᴇ ᴛᴀɢ ᴠᴀ́ʟɪᴅᴏ!'
+  tag_select_already_set: '&f{0} &cᴊᴀ́ ᴇsᴛᴀ́ ᴅᴇғɪɴɪᴅᴀ ᴄᴏᴍᴏ ᴛᴀɢ ᴀᴛɪᴠᴀ!'
+  
+  help_title: '&5&lᴅᴇʟᴜxᴇᴛᴀɢs &f&oᴀᴊᴜᴅᴀ'
+  help_color: '&8> &d&l'
+  help_tags: '&f&oᴀʙʀɪʀ ᴀ sᴜᴀ ɢᴜɪ ᴅᴇ ᴛᴀɢs'
+  help_list: '&f&oᴠᴇʀ ᴀs ᴛᴀɢs ᴅɪsᴘᴏɴíᴠᴇɪs ᴘᴀʀᴀ ᴠᴏᴄê'
+  help_select: '&f&osᴇʟᴇᴄɪᴏɴᴀʀ ᴜᴍᴀ ᴛᴀɢ ᴄᴏᴍᴏ ᴀᴛɪᴠᴀ'
+  help_admin_set: '&f&oᴅᴇғɪɴɪʀ ᴀ ᴛᴀɢ ᴅᴇ ᴜᴍ ᴊᴏɢᴀᴅᴏʀ'
+  help_admin_clear: '&f&oʀᴇᴍᴏᴠᴇʀ ᴀ ᴛᴀɢ ᴅᴇ ᴜᴍ ᴊᴏɢᴀᴅᴏʀ'
+  help_admin_create: '&f&oᴄʀɪᴀʀ ᴜᴍᴀ ɴᴏᴠᴀ ᴛᴀɢ'
+  help_admin_delete: '&f&oᴅᴇʟᴇᴛᴀʀ ᴜᴍᴀ ᴛᴀɢ ᴇxɪsᴛᴇɴᴛᴇ'
+  help_admin_setdesc: '&f&oᴅᴇғɪɴɪʀ ᴀ ᴅᴇsᴄʀɪᴄᴀ̃ᴏ ᴅᴇ ᴜᴍᴀ ᴛᴀɢ'
+  help_admin_setorder: '&f&oᴀʟᴛᴇʀᴀʀ ᴀ ᴏʀᴅᴇᴍ ᴅᴇ ᴜᴍᴀ ᴛᴀɢ'
+  help_admin_setdisplay: '&f&oᴀʟᴛᴇʀᴀʀ ᴏ ᴅɪsᴘʟᴀʏ ᴅᴇ ᴜᴍᴀ ᴛᴀɢ'
+  help_version: '&f&oᴠᴇʀ sᴀ ᴠᴇʀsᴀ̃ᴏ ᴅᴏ ᴅᴇʟᴜxᴇᴛᴀɢs ᴇ ɪɴғᴏʀᴍᴀᴄ̧ᴏ̃ᴇs ᴅᴏ ᴀᴜᴛᴏʀ'
+  help_reload: '&f&oʀᴇᴄᴀʀʀᴇɢᴀʀ ᴀ ᴄᴏɴғɪɢᴜʀᴀᴄ̧ᴀ̃ᴏ ᴅᴇ ᴛᴀɢs'
+  
+  admin_set_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags set <jogador> <tag>'
+  admin_set_no_tags_avail: '&f{0} &cɴãᴏ ᴛᴇᴍ ᴛᴀɢs ᴅɪsᴘᴏɴíᴠᴇɪs!'
+  admin_set_success: '&f{0}s &aᴛᴀɢ ғᴏɪ ᴅᴇғɪɴɪᴅᴀ ᴘᴀʀᴀ: {1} &7({2}&7)'
+  admin_set_success_to_target: '&7sᴜᴀ ᴛᴀɢ ғᴏɪ ᴅᴇғɪɴɪᴅᴀ ᴘᴀʀᴀ &f{1} &ᴘᴇʟᴏ &f{2}'
+  admin_set_success_fail: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍᴀ ᴛᴀɢ ᴠᴀ́ʟɪᴅᴀ ᴘᴀʀᴀ &f{1}&c!'
+  
+  admin_clear_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags clear <jogador>'
+  admin_clear_no_tag_set: '&f{0} &cɴãᴏ ᴛᴇᴍ ᴛᴀɢ ᴅᴇғɪɴɪᴅᴀ!'
+  admin_clear_success: '&f{0}s &aᴛᴀɢ ғᴏɪ ʀᴇᴍᴏᴠɪᴅᴀ!'
+  admin_clear_success_to_target: '&7sᴜᴀ ᴛᴀɢ ғᴏɪ ʀᴇᴍᴏᴠɪᴅᴀ ᴘᴇʟᴏ &f{0}'
+  
+  admin_create_tag_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags create <identificador>
+    <tag>'
+  admin_create_tag_success: '&aᴛᴀɢ ᴄʀɪᴀᴅᴀ&7: &f{0}&7:&f{1}'
+  admin_create_tag_fail: '&f{0} &cᴊᴀ́ ᴇ́ ᴜᴍᴀ ᴛᴀɢ ᴄᴀʀʀᴇɢᴀᴅᴀ!'
+  
+  admin_delete_tag_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags delete <identificador>'
+  admin_delete_tag_success: '&7ᴛᴀɢ &f{0} &7ғᴏɪ ᴇxᴄʟᴜɪ́ᴅᴀ!'
+  admin_delete_tag_fail: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍᴀ ᴛᴀɢ ᴄᴀʀʀᴇɢᴀᴅᴀ!'
+  
+  admin_set_description_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags setdesc <identificador>
+    <descrição>'
+  admin_set_description_success: '{0} &aᴅᴇsᴄʀɪᴄᴀ̃ᴏ ᴅᴇғɪɴɪᴅᴀ ᴘᴀʀᴀ &7: &f{2}'
+  admin_set_description_fail: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍᴀ ᴛᴀɢ ᴄᴀʀʀᴇɢᴀᴅᴀ!'
+  
+  admin_set_order_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags setorder <identificador>
+    <ordem>'
+  admin_set_order_success: '&aᴏʀᴅᴇᴍ &f{0}&a ᴅᴇғɪɴɪᴅᴀ ᴘᴀʀᴀ &7: &f{1}'
+  admin_set_order_fail: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍᴀ ᴛᴀɢ ᴄᴀʀʀᴇɢᴀᴅᴀ!'
+  admin_set_order_not_a_number: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍ ɴúᴍᴇʀᴏ ᴠᴀ́ʟɪᴅᴏ!'
+  admin_set_order_already_exists: '&cᴏʀᴅᴇᴍ &f{0}&c ᴊᴀ́ ᴇsᴛᴀ́ ᴇᴍ ᴜsᴏ.'
+  
+  admin_set_display_incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! &7/tags setdisplay <identificador>
+    <display>'
+  admin_set_display_success: '{0} &aᴅɪsᴘʟᴀʏ ᴅᴇғɪɴɪᴅᴏ ᴘᴀʀᴀ &7: &f{1}'
+  admin_set_display_fail: '&f{0} &cɴãᴏ ᴇ́ ᴜᴍᴀ ᴛᴀɢ ᴄᴀʀʀᴇɢᴀᴅᴀ!'
+  
+  admin_reload: '&aᴄᴏɴꜰɪɢᴜʀᴀᴄ̧ᴀ̃ᴏ ʀᴇᴄᴀʀʀᴇɢᴀᴅᴀ ᴄᴏᴍ sᴜᴄᴇssᴏ! &f{0} &aᴛᴀɢs ᴄᴀʀʀᴇɢᴀᴅᴀs!'
+  
+  incorrect_usage: '&cᴜsᴏ ɪɴᴄᴏʀʀᴇᴛᴏ! ᴜsᴇ &7/tags help'
+
+gui:
+  placeholders:
+    tag:
+      available: '&aᴅɪsᴘᴏɴíᴠᴇʟ'
+      unavailable: '&cɪɴᴅɪsᴘᴏɴíᴠᴇʟ'
+  tag_selected: '&asᴜᴀ ᴛᴀɢ ғᴏɪ ᴅᴇғɪɴɪᴅᴀ ᴘᴀʀᴀ &f{0} &7({1}&7)'
+  tag_disabled: '&7sᴜᴀ ᴛᴀɢ ғᴏɪ ᴅᴇsᴀᴛɪᴠᴀᴅᴀ!'
+  page_error: '&cʜᴏᴜᴠᴇ ᴜᴍ ᴘʀᴏʙʟᴇᴍᴀ ᴀᴏ ᴏʙᴛᴇʀ ᴏ ɴᴜ́ᴍᴇʀᴏ ᴅᴀ ᴘᴀɢɪɴᴀ ᴀɴᴛᴇʀɪᴏʀ!'
